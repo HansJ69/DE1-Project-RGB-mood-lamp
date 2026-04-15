@@ -12,3 +12,11 @@ The user will be able to control the following settings:
 - Cange speed of the rainbow effect
 - Turn individual LEDs on or off
 - Reset to default parameters anytime
+
+## Lab1: Defining architecture and functionality
+
+# Assigning button functions
+
+| Button | Press | Function |
+| :--- | :--- | :--- |
+| btnu | Short | Cycle brightness |
