@@ -2,11 +2,12 @@
 
 ## Team Members
 
-Jan Pikner (270868)
-Josef Cvejn (270573)
+- Jan Pikner (270868)
+- Josef Cvejn (270573)
 
 ## main goal
 Develop and implement RGB LED control for the Nexys A7-50T FPGA development board
+
 The user will be able to control the following settings:
 - Control brightness of both LEDs indivudually
 - Cange speed of the rainbow effect
@@ -21,8 +22,8 @@ The user will be able to control the following settings:
 | :--- | :--- | :--- |
 | btnu | Short | Cycle brightness of left LED |
 | btnd | Short | Cycle brightness of right LED |
-| btnl | short | Cycle effect speed of left LED |
-| btnr | short | Cycle effect speed of right LED |
-| btnl | long | Turn left LED on or off |
-| btnr | long | Turn right LED on or off |
-| btnc | short | reset all parameters to default |
+| btnl | Short | Cycle effect speed of left LED |
+| btnr | Short | Cycle effect speed of right LED |
+| btnl | Long | Turn left LED on or off |
+| btnr | Long | Turn right LED on or off |
+| btnc | Short | Reset all parameters to default |
