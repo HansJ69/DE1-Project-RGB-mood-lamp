@@ -15,8 +15,14 @@ The user will be able to control the following settings:
 
 ## Lab1: Defining architecture and functionality
 
-# Assigning button functions
+### Assigning button functions
 
 | Button | Press | Function |
 | :--- | :--- | :--- |
-| btnu | Short | Cycle brightness |
+| btnu | Short | Cycle brightness of left LED |
+| btnd | Short | Cycle brightness of right LED |
+| btnl | short | Cycle effect speed of left LED |
+| btnr | short | Cycle effect speed of right LED |
+| btnl | long | Turn left LED on or off |
+| btnr | long | Turn right LED on or off |
+| btnc | short | reset all parameters to default |
