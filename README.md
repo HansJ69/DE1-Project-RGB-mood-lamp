@@ -27,3 +27,13 @@ The user will be able to control the following settings:
 | btnl | Long | Turn left LED on or off |
 | btnr | Long | Turn right LED on or off |
 | btnc | Short | Reset all parameters to default |
+
+
+## Lab2: Simulating components
+
+### Button debouncer
+<img width="1302" height="228" alt="debounce_sim" src="https://github.com/user-attachments/assets/0607b6b6-36f7-4567-826a-194d0c341804" />
+
+### PWM modulation
+<img width="1712" height="265" alt="pwm_sim" src="https://github.com/user-attachments/assets/cef4eaf8-b528-4a8a-b408-311824e51ff7" />
+
