@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Apr 21 18:06:20 2026
+# Process ID         : 8060
+# Current directory  : C:/Users/Hans/Desktop/project_incident
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent16792 C:\Users\Hans\Desktop\project_incident\project_incident.xpr
+# Log file           : C:/Users/Hans/Desktop/project_incident/vivado.log
+# Journal file       : C:/Users/Hans/Desktop/project_incident\vivado.jou
+# Running On         : FRAMEWORK
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 18
+# Host memory        : 33786 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35934 MB
+# Available Virtual  : 25355 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Hans/Desktop/project_incident/project_incident.xpr
+
+update_compile_order -fileset sources_1
