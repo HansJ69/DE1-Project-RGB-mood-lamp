@@ -29,7 +29,7 @@ The user will be able to control the following settings:
 | btnc | Short | Reset all parameters to default |
 
 
-## Lab2: Simulating components
+## Lab2: Defining the architecture and simulating components
 
 ### Graphical representation of module hierarchy and signal flows.
 <img width="1131" height="863" alt="obrazek" src="https://github.com/user-attachments/assets/5fa2ab95-389d-4beb-95c5-2e10d0e2e750" />
