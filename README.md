@@ -32,8 +32,7 @@ The user will be able to control the following settings:
 ## Lab2: Simulating components
 
 ### Graphical representation of module hierarchy and signal flows.
-<img width="3112" height="2408" alt="obrazek" src="https://github.com/user-attachments/assets/831d4993-5978-4938-a1b0-0f3bdb9d5ad2" />
-
+<img width="1131" height="863" alt="obrazek" src="https://github.com/user-attachments/assets/5fa2ab95-389d-4beb-95c5-2e10d0e2e750" />
 
 ### Button debouncer
 <img width="1302" height="228" alt="debounce_sim" src="https://github.com/user-attachments/assets/0607b6b6-36f7-4567-826a-194d0c341804" />
