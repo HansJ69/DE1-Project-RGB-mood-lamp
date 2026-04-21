@@ -31,6 +31,8 @@ The user will be able to control the following settings:
 
 ## Lab2: Defining the architecture and simulating components
 
+First, all the inputs are handled by the debouncer blocks. The outputs then go to individual registers incrementing their stored value by one. Theese values are then used as variables for the rainbow_rgb blocks. The output is either enabled or disabled by multiplying the output by the output of a T-Flip-Flop. to reset options to default values a reset signal is sent to all the memory registers.
+
 ### Graphical representation of module hierarchy and signal flows.
 <img width="1131" height="863" alt="obrazek" src="https://github.com/user-attachments/assets/5fa2ab95-389d-4beb-95c5-2e10d0e2e750" />
 
