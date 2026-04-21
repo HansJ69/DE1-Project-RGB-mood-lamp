@@ -34,7 +34,7 @@ The user will be able to control the following settings:
 First, all the inputs are handled by the debouncer blocks. The outputs then go to individual registers incrementing their stored value by one. Theese values are then used as variables for the rainbow_rgb blocks. The output is either enabled or disabled by multiplying the output by the output of a T-Flip-Flop. to reset options to default values a reset signal is sent to all the memory registers.
 
 ### Graphical representation of module hierarchy and signal flows.
-<img width="1131" height="863" alt="obrazek" src="https://github.com/user-attachments/assets/5fa2ab95-389d-4beb-95c5-2e10d0e2e750" />
+<img width="1132" height="866" alt="obrazek" src="https://github.com/user-attachments/assets/b5742c68-2677-4b3c-baea-30d618ee1bec" />
 
 ### Button debouncer
 The debounder module is responsible for debouncing the input signal to be safely used in another modules without accidently registering multiple button presses. It also has a btn_long output for additional functions when holding the button. 
