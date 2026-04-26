@@ -40,7 +40,9 @@ The debounder module is responsible for debouncing the input signal to be safely
 <img width="1302" height="228" alt="debounce_sim" src="https://github.com/user-attachments/assets/0607b6b6-36f7-4567-826a-194d0c341804" />
 
 ### PWM modulation
-The rainbow_pwm module is responsible for both pwm modulation of all three colour channels and handling the speed and brightness options. In the picture below we can se brightness adjustment of the red channel depending on the desired brightness.
+The rainbow_pwm module is responsible for both pwm modulation of all three colour channels and handling the speed and brightness options. In the picture below we can see the module output when setting brightness at 25%, 50%, and 100% while being slowed down.
+<img width="1325" height="571" alt="obrazek" src="https://github.com/user-attachments/assets/541170bc-f1a8-46cd-bdfd-2d004f6f1952" />
+In the picture below we can see a closeup of brightness adjustment of the red channel depending on the desired brightness. other channels are not active in this early stage yet as it takes about 280ms to start ramping up.
 <img width="1712" height="265" alt="pwm_sim" src="https://github.com/user-attachments/assets/cef4eaf8-b528-4a8a-b408-311824e51ff7" />
 
 ## Lab3: Merging modules into the Top-level entity
