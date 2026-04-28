@@ -45,6 +45,7 @@ The rainbow_pwm module is responsible for both pwm modulation of all three colou
 **[Open tb_debounce.vhd](/Project%20files/project_incident/project_incident.srcs/sim_1/new/tb_debounce.vhd)**
 <img width="1325" height="571" alt="obrazek" src="https://github.com/user-attachments/assets/541170bc-f1a8-46cd-bdfd-2d004f6f1952" />
 In the picture below we can see a closeup of brightness adjustment of the red channel depending on the desired brightness. other channels are not active in this early stage yet as it takes about 280ms to start ramping up.
+
 **[Open tb_rainbow_pwm.vhd](/Project%20files/project_incident/project_incident.srcs/sim_1/new/tb_rainbow_pwm.vhd)**
 <img width="1712" height="265" alt="pwm_sim" src="https://github.com/user-attachments/assets/cef4eaf8-b528-4a8a-b408-311824e51ff7" />
 Here is a closeup of the simulation above to see the PWM modulation change at 2ms:
