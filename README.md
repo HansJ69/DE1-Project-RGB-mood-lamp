@@ -5,6 +5,8 @@
 - Jan Pikner (270868)
 - Josef Cvejn (270573)
 
+  Note: Google Gemini has been used to assist code development.
+
 ## Main goal
 Develop and implement RGB LED control for the Nexys A7-50T FPGA development board
 
