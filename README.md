@@ -56,4 +56,7 @@ Here is a closeup of the simulation above to see the PWM modulation change at 2m
 The top module serves as the primary integration layer. It connects the hardware constraints (100MHz clock, active-low CPU reset) to five individual debounce instances. The processed signals drive the synchronous logic that maintains the current state (speed, brightness, and enable flags) for both sides. These states are then routed directly into the rainbow_pwm instances.
 
 **[Open tb_top.vhd](/Project%20files/project_incident/project_incident.srcs/sim_1/new/tb_top.vhd)**
-<img width="654" height="583" alt="obrazek" src="https://github.com/user-attachments/assets/2d549fc7-294b-45a1-9d6a-235d58b39f54" />
+<img width="1129" height="564" alt="obrazek" src="https://github.com/user-attachments/assets/89cc70d4-50ff-4da2-9429-b9e2d5ca16c5" />
+<img width="1377" height="555" alt="obrazek" src="https://github.com/user-attachments/assets/75fc40b3-55f0-45be-a74a-f438d96b0bee" />
+
+
