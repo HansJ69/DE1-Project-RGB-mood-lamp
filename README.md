@@ -48,11 +48,12 @@ In the picture below we can see a closeup of brightness adjustment of the red ch
 
 **[Open tb_rainbow_pwm.vhd](/Project%20files/project_incident/project_incident.srcs/sim_1/new/tb_rainbow_pwm.vhd)**
 <img width="1712" height="265" alt="pwm_sim" src="https://github.com/user-attachments/assets/cef4eaf8-b528-4a8a-b408-311824e51ff7" />
+
 Here is a closeup of the simulation above to see the PWM modulation change at 2ms:
 <img width="1054" height="825" alt="obrazek" src="https://github.com/user-attachments/assets/315d4bcc-c02b-49a8-9525-6a9fee5cf4cf" />
 
 ## Lab3: Merging modules into the Top-level entity
 The top module serves as the primary integration layer. It connects the hardware constraints (100MHz clock, active-low CPU reset) to five individual debounce instances. The processed signals drive the synchronous logic that maintains the current state (speed, brightness, and enable flags) for both sides. These states are then routed directly into the rainbow_pwm instances.
 
-
 **[Open tb_top.vhd](/Project%20files/project_incident/project_incident.srcs/sim_1/new/tb_top.vhd)**
+<img width="654" height="583" alt="obrazek" src="https://github.com/user-attachments/assets/2d549fc7-294b-45a1-9d6a-235d58b39f54" />
