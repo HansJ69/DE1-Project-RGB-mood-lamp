@@ -37,12 +37,13 @@ First, all the inputs are handled by the debouncer blocks. The outputs then go t
 
 ### Button debouncer
 The debounder module is responsible for debouncing the input signal to be safely used in another modules without accidently registering multiple button presses. It also has a btn_long output for additional functions when holding the button. 
+
+**[Open tb_debounce.vhd](/Project%20files/project_incident/project_incident.srcs/sim_1/new/tb_debounce.vhd)**
 <img width="1302" height="228" alt="debounce_sim" src="https://github.com/user-attachments/assets/0607b6b6-36f7-4567-826a-194d0c341804" />
 
 ### PWM modulation
 The rainbow_pwm module is responsible for both pwm modulation of all three colour channels and handling the speed and brightness options. In the picture below we can see the module output when setting brightness at 25%, 50%, and 100% while being slowed down.
 
-**[Open tb_debounce.vhd](/Project%20files/project_incident/project_incident.srcs/sim_1/new/tb_debounce.vhd)**
 <img width="1325" height="571" alt="obrazek" src="https://github.com/user-attachments/assets/541170bc-f1a8-46cd-bdfd-2d004f6f1952" />
 In the picture below we can see a closeup of brightness adjustment of the red channel depending on the desired brightness. other channels are not active in this early stage yet as it takes about 280ms to start ramping up.
 
